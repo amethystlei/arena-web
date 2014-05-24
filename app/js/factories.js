@@ -94,7 +94,7 @@ factories.notificationService = ['$timeout', '$http', 'sessionHelper', function 
     service.resetLoadMessages = function () {
         service.demoId = 0;
         service.demoCount = 0;
-        service.demoing = false,
+        service.demoing = false;
         service.repeatLoading = false;
         service.clearNotifications();
     };
